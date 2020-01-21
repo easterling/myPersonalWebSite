@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <link rel="stylesheet" href="css/styleContact.css">
+</head>
+
+<body>
+  <div class=".div-ContactPage">
+    <h1>Contact Details</h1>
+    <p>Troy Easterling</p>
+    <p>Toledo, Ohio</p>
+    <p>(815) 341-1755 | troyeasterling@pobox.com</p>
+    <p><a href="http://www.linkedin.com/in/troyeasterling" target="_blank">linkedin.com/in/troyeasterling</a></p>
+
+    <br>
+    <h2>Contact Me</h2>
+
+    <form action="mailto:troyeasterling@pobox.com" method="post" enctype="text/plain">
+      <ul class="tableList">
+        <li>
+          <label for="name">Your Name:</label>
+          <input type="text" id="name" name="user_name">
+        </li>
+        <li>
+          <label for="mail">E-Mail:</label>
+          <input type="email" id="mail" name="user_email">
+        </li>
+        <li>
+          <label for="msg">Message:</label>
+          <textarea id="msg" name="user-message">By default this field is fill with this text</textarea>
+        </li>
+        <br>
+      </ul>
+      <button type="submit" name="submit">Send Your Message</button>
+    </form>
+  </div>
+</body>
+
+</html>
